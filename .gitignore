@@ -1,0 +1,29 @@
+# Local configuration with credentials - NEVER commit these
+mcp-config.local.json
+.env
+.env.local
+.env.*.local
+*-credentials.json
+*-secrets.json
+credentials.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node/npm
+node_modules/
+npm-debug.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/

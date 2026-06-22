@@ -1,0 +1,54 @@
+{
+  "mcp_servers": [
+    {
+      "name": "BT1_MCP",
+      "url": "https://buildtools1.service-now.com/api/now/mcp",
+      "type": "url"
+    },
+    {
+      "name": "CSP MCP",
+      "url": "https://success.servicenow.com/sncapps/mcp-server/mcp/x_snc_csp_mcps_csp",
+      "type": "url"
+    },
+    {
+      "name": "Data_Analytics_Connection",
+      "url": "https://apicid.servicenow.com/v1/mcp/edp/streamhttp",
+      "type": "url"
+    },
+    {
+      "name": "GTM MCP",
+      "url": "https://apicid.servicenow.com/v1/mcp/gtm/streamhttp",
+      "type": "url"
+    },
+    {
+      "name": "Marketing MCP",
+      "url": "https://apicid.servicenow.com/v1/mcp/marketing/streamhttp",
+      "type": "url"
+    },
+    {
+      "name": "Microsoft 365",
+      "url": "https://microsoft365.mcp.claude.com/mcp",
+      "type": "url"
+    },
+    {
+      "name": "Sales Success Center Content Retriever",
+      "url": "https://apicid.servicenow.com/v1/mcp/gtm/semantic-retriever/streamhttp",
+      "type": "url"
+    },
+    {
+      "name": "SURF_CORE_MCP",
+      "url": "https://surf.service-now.com/sncapps/mcp-server/mcp/x_snc_devx_agentic_now",
+      "type": "url"
+    },
+    {
+      "name": "Usage Insights",
+      "url": "https://apicid.servicenow.com/v1/mcp/uxa-usage-insights/streamhttp",
+      "type": "url"
+    },
+    {
+      "name": "ValueMelody",
+      "url": "https://apicid.servicenow.com/v1/mcp/value-melody/streamhttp",
+      "type": "url"
+    }
+  ]
+}

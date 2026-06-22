@@ -1,0 +1,34 @@
+{
+  "_comment": "This is a template for mcp-config.local.json (local development only). DO NOT COMMIT CREDENTIALS.",
+  "mcp_servers": [
+    {
+      "name": "BT1_MCP",
+      "url": "https://buildtools1.service-now.com/api/now/mcp",
+      "type": "url",
+      "auth": {
+        "type": "basic",
+        "username": "YOUR_SERVICENOW_USERNAME",
+        "password": "YOUR_SERVICENOW_PASSWORD"
+      }
+    },
+    {
+      "name": "CSP MCP",
+      "url": "https://success.servicenow.com/sncapps/mcp-server/mcp/x_snc_csp_mcps_csp",
+      "type": "url",
+      "auth": {
+        "type": "bearer_token",
+        "token": "YOUR_AUTH_TOKEN_HERE"
+      }
+    },
+    {
+      "name": "Microsoft 365",
+      "url": "https://microsoft365.mcp.claude.com/mcp",
+      "type": "url",
+      "auth": {
+        "type": "oauth",
+        "client_id": "YOUR_CLIENT_ID",
+        "client_secret": "YOUR_CLIENT_SECRET"
+      }
+    }
+  ]
+}
